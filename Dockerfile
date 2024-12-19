@@ -1,5 +1,5 @@
 #FROM python:3.8.19-slim-bullseye
-FROM python@sha256:e87cbda2ad77070742458632973529100bef57859139fa025c7d6d50dd6c3caf
+FROM python@sha256:555edb36567e9b245461e75bf55b0619fb23cf64fa663be5388797f026be15c0
 
 #Make app folder on root
 RUN mkdir -p /app
